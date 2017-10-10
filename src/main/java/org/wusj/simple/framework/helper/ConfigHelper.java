@@ -36,7 +36,7 @@ public final class ConfigHelper {
     /**
      * 获取应用基础包名
      */
-    public static String getAppBasePackagge() {
+    public static String getAppBasePackage() {
         return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_BASE_PACKAGE);
     }
 
