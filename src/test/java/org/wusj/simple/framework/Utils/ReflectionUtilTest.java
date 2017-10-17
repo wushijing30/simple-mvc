@@ -24,7 +24,7 @@ public class ReflectionUtilTest {
     public void invokeMethod() throws Exception {
         Class<?> cls = Class.forName(CLASSNAME);
         ConfigHelper obj = (ConfigHelper) ReflectionUtil.newInstance(cls);
-        Method method = cls.getMethod("getAppJspPath");
+        Method method = cls.getMethod("getAppBasePackage");
         Object result = ReflectionUtil.invokeMethod(obj, method);
         System.out.println("result: " + result.toString());
     }
