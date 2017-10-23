@@ -44,7 +44,7 @@ public final class ConfigHelper {
      * 获取应用JSPP路径
      */
     public static String getAppJspPath() {
-        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_JSP_PATH, "/WEB-IINF/view/");
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_JSP_PATH, "/WEB-INF/view/");
     }
 
     /**
